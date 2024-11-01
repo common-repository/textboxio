@@ -1,0 +1,113 @@
+.ephox-wp-link-popup{
+width: 300px;
+}
+
+.ephox-wp-link-popup.ephox-repartee-caret-top-align:before {
+  margin-left: 8px;
+}
+
+.ephox-wp-link-popup ul.pages {
+  border-top: 1px solid #E6E6E6;
+}
+
+.ephox-wp-link-popup li{
+  padding-left: 10px;
+  padding: 3px 15px;
+  line-height: 18px;
+  border-bottom: 1px solid #E6E6E6;
+  cursor: pointer;
+  margin: 0;
+}
+
+.ephox-wp-link-popup li:last-child {
+  border-bottom: none;
+}
+
+.ephox-wp-link-popup li:hover{
+  color: #FFF;
+  background: #8080FF;
+}
+
+.ephox-wp-link-popup li span.last-modified{
+  float: right;
+  font-style: oblique;
+  font-size: 10px;
+}
+
+.ephox-wp-link-popup .search-bar {
+  width: 280px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+input.ephox-polish-link-insert-input {
+  border-radius: 4px;
+  width: 162px;
+  color: #424242;
+  height: auto; 
+}
+
+.ephox-pastry-list-item { 
+  margin:0; 
+}
+
+#wp-content-editor-container .ephox-polish-socket {
+  border:none;
+}
+
+#content-resize-handle {
+  display: none !important;
+}
+
+.ephox-wp-activation-container{
+  margin: 5px 0 15px;
+  border-color: #c00;
+  padding:0 0.6em;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border-width: 1px;
+  border-style: solid;
+  display:block;
+  background: linear-gradient(#DF3803, #F30F0F);
+}
+
+.ephox-wp-activation-container *{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue",hevetica ,sans-serif;
+  font-weight: 300;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4),0 2px 2px rgba(0,0,0,.24);
+}
+
+.ephox-wp-activation-container .ephox-wp-activation-submit-button{
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  height: 45px;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 0;
+  /*linear-gradient*/
+  background: linear-gradient(#FFC200,#C9570B);
+  color: #fff;
+  border: 1px solid #34495e;
+  text-shadow: 0 -1px 4px rgba(0,0,0,.4);
+  /*box-shadow*/
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -1px 1px rgba(255,255,255,.1);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -1px 1px rgba(255,255,255,.1);
+  box-shadow: 0 1px 4px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -1px 1px rgba(255,255,255,.1);
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-right: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.ephox-wp-activation-container span.headline {
+  color: white;
+  font-size: 1.8em;
+  top: 0.1em;
+  display: inline-block;
+  position: relative;
+  padding-right: 0.5em;
+}
